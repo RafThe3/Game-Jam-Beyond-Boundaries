@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void FixedUpdate()
