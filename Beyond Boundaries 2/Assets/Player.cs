@@ -24,8 +24,9 @@ public class Player : MonoBehaviour
     {
         #region Movement
         float x = Input.GetAxisRaw("Horizontal"), y = Input.GetAxisRaw("Vertical");
+        Vector2 playerMovement = 100 * moveSpeed * Time.deltaTime * new Vector2(x, y);
 
-        rb.velocity = 100 * moveSpeed * Time.deltaTime * new Vector2(x, y);
+        rb.velocity = playerMovement;
         #endregion
     }
 }
