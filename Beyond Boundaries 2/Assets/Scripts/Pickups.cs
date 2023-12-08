@@ -56,7 +56,6 @@ public class Pickups : MonoBehaviour
         pickups = GameObject.FindGameObjectsWithTag("Pickups");
         remainingItemsText.text = $"Remaining Items: {pickups.Length}";
         itemsInHandText.text = $"Items In Hand: {numPickups}";
-        Debug.Log($"Pickups = {numPickups}");
     }
 
     private void AddPickup(Collider2D collision)
