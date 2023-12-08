@@ -10,6 +10,7 @@ public class Pickups : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
 
     [Header("Text")]
+    [SerializeField] private TMPro.TextMeshProUGUI itemsInHandText;
     [SerializeField] private TMPro.TextMeshProUGUI remainingItemsText;
 
     //Internal Variables
@@ -54,6 +55,7 @@ public class Pickups : MonoBehaviour
     {
         pickups = GameObject.FindGameObjectsWithTag("Pickups");
         remainingItemsText.text = $"Remaining Items: {pickups.Length}";
+        itemsInHandText.text = $"Items In Hand: {numPickups}";
         Debug.Log($"Pickups = {numPickups}");
     }
 
