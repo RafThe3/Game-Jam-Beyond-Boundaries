@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Basket : MonoBehaviour
 {
-    private int requiredAmount;
+    [SerializeField] private TMPro.TextMeshProUGUI objectiveText;
+
+    //Internal Variables
     [HideInInspector] public int items;
     [HideInInspector] public bool isFull;
-    [SerializeField] private TMPro.TextMeshProUGUI objectiveText;
+    private int requiredAmount;
 
     // Start is called before the first frame update
     void Start()
@@ -20,9 +22,8 @@ public class Basket : MonoBehaviour
     {
         if (items == requiredAmount)
         {
-            objectiveText.text = "Objective: Go home";
             isFull = true;
-            Debug.Log("Basket is full");
+            objectiveText.text = "Objective: Go home";
         }
     }
 }
