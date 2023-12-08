@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Pickups : MonoBehaviour
 {
+    [Header("General")]
+    [Min(0), SerializeField] private int maxItemsInHand = 5;
+
     [Header("SFX")]
     [SerializeField] private AudioClip pickupSFX;
     [SerializeField] private AudioClip dropoffSFX;
@@ -11,6 +14,7 @@ public class Pickups : MonoBehaviour
 
     [Header("Text")]
     [SerializeField] private TMPro.TextMeshProUGUI itemsInHandText;
+    [SerializeField] private TMPro.TextMeshProUGUI objectiveText;
     [SerializeField] private TMPro.TextMeshProUGUI remainingItemsText;
 
     //Internal Variables
@@ -25,6 +29,7 @@ public class Pickups : MonoBehaviour
 
     private void Update()
     {
+        pickups = GameObject.FindGameObjectsWithTag("Pickups");
         UpdateText();
     }
 
@@ -53,15 +58,20 @@ public class Pickups : MonoBehaviour
 
     private void UpdateText()
     {
-        pickups = GameObject.FindGameObjectsWithTag("Pickups");
         remainingItemsText.text = $"Remaining Items: {pickups.Length}";
-        itemsInHandText.text = $"Items In Hand: {numPickups}";
+        itemsInHandText.text = numPickups == maxItemsInHand ? $"Items In Hand: FULL" : $"Items In Hand: {numPickups}";
+        objectiveText.text = numPickups == maxItemsInHand || pickups.Length == 0 ? "Objective: Drop off items into basket"
+            : basket.isFull ? "Objective: Go home"
+            : "Objective: Pick up items and drop off into basket";
     }
 
     private void AddPickup(Collider2D collision)
     {
-        numPickups++;
-        audioSource.PlayOneShot(pickupSFX);
-        Destroy(collision.gameObject);
+        if (numPickups != maxItemsInHand)
+        {
+            numPickups++;
+            audioSource.PlayOneShot(pickupSFX);
+            Destroy(collision.gameObject);
+        }
     }
 }

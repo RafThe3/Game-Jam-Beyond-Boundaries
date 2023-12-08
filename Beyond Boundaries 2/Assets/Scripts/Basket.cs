@@ -11,19 +11,13 @@ public class Basket : MonoBehaviour
     [HideInInspector] public bool isFull;
     private int requiredAmount;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         requiredAmount = GameObject.FindGameObjectsWithTag("Pickups").Length;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if (items == requiredAmount)
-        {
-            isFull = true;
-            objectiveText.text = "Objective: Go home";
-        }
+        isFull = items == requiredAmount;
     }
 }
