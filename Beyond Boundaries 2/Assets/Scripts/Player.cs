@@ -5,23 +5,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    #region Variables
-
-    #region General
-    //Internal Variables
-    private Rigidbody2D rb;
-    #endregion
-
-    #region Movement
     [Header("Movement")]
     [Min(1), SerializeField] private float moveSpeed = 5.0f;
     [SerializeField] private bool canMove = true;
 
     //Internal Variables
+    private Rigidbody2D rb;
     [HideInInspector] public bool isMoving;
-    #endregion
-
-    #endregion
 
     private void Start()
     {
@@ -31,14 +21,9 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        #region Movement
         MovePlayer();
-        #endregion
     }
 
-    #region Methods
-
-    #region Movement
     private void MovePlayer()
     {
         if (!canMove)
@@ -52,7 +37,4 @@ public class Player : MonoBehaviour
         rb.velocity = playerMovement;
         isMoving = Mathf.Abs(x) > Mathf.Epsilon || Mathf.Abs(y) > Mathf.Epsilon;
     }
-    #endregion
-
-    #endregion
 }
