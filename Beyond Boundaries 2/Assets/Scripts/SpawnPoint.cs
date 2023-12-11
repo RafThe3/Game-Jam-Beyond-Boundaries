@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpawnPoint : MonoBehaviour
 {
     private Basket basket;
-    [SerializeField] private int scene;
+    [Min(0), SerializeField] private int scene;
 
     // Start is called before the first frame update
     void Awake()
@@ -17,7 +18,7 @@ public class SpawnPoint : MonoBehaviour
     {
         if (basket.isFull)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene(scene);
+            SceneManager.LoadScene(scene);
         }
     }
 }

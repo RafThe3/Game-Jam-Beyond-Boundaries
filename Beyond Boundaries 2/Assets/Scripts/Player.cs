@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
     [Header("Movement")]
     [Min(1), SerializeField] private float moveSpeed = 5.0f;
-    [SerializeField] private bool canMove = true;
+    public bool canMove = true;
 
     //Internal Variables
     private Rigidbody2D rb;
