@@ -59,8 +59,8 @@ public class Pickups : MonoBehaviour
     private void UpdateText()
     {
         remainingItemsText.text = $"Remaining Items: {pickups.Length}";
-        itemsInHandText.text = numPickups == maxItemsInHand ? $"Items In Hand: FULL" : $"Items In Hand: {numPickups}";
-        objectiveText.text = numPickups == maxItemsInHand || pickups.Length == 0 ? "Objective: Drop off items into basket"
+        itemsInHandText.text = numPickups == maxItemsInHand ? "Items In Hand: FULL" : $"Items In Hand: {numPickups}";
+        objectiveText.text = numPickups == maxItemsInHand ? "Objective: Drop off items into basket"
             : basket.isFull ? "Objective: Go home"
             : "Objective: Pick up items and drop off into basket";
     }
