@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pickups
   - Basket
+  - LvlDrops
   layers:
   - Default
   - TransparentFX

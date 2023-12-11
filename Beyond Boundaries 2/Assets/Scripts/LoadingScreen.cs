@@ -5,18 +5,13 @@ using TMPro;
 
 public class LoadingScreen : MonoBehaviour
 {
-    [Min(1) ,SerializeField] private int day = 1;
+    [Tooltip("The current day number."), Min(1) ,SerializeField] private int day = 1;
     [SerializeField] private TextMeshProUGUI dayText;
-    [SerializeField] private UnityEngine.UI.Image image;
+    [SerializeField] private Canvas loadingScreen, playerUI;
 
     //Internal Variables
     private Player player;
     private float timer;
-
-    private void Awake()
-    {
-        image.enabled = true;
-    }
 
     // Start is called before the first frame update
     private void Start()
@@ -34,8 +29,8 @@ public class LoadingScreen : MonoBehaviour
     private void WaitToPlay()
     {
         timer += Time.deltaTime;
-        image.enabled = timer < 3;
-        dayText.enabled = timer < 3;
+        loadingScreen.enabled = timer < 3;
         player.canMove = timer >= 3;
+        playerUI.enabled = timer >= 3;
     }
 }
