@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 69e37b7b75c5cf2469b6fe1e1ee979e7
+=======
+guid: c0582b737c8e6e940bf9e513774a06d6
+>>>>>>> fc9a8dd5ea339f051a2c2313a028c8767e5ca90e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +37,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: 1
+=======
+    filterMode: 0
+>>>>>>> fc9a8dd5ea339f051a2c2313a028c8767e5ca90e
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +50,20 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> fc9a8dd5ea339f051a2c2313a028c8767e5ca90e
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 16
+=======
+  spritePixelsToUnits: 100
+>>>>>>> fc9a8dd5ea339f051a2c2313a028c8767e5ca90e
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,6 +117,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -587,6 +604,23 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+>>>>>>> fc9a8dd5ea339f051a2c2313a028c8767e5ca90e
     outline: []
     physicsShape: []
     bones: []
@@ -597,6 +631,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
     nameFileIdTable:
       Grass and paths_0: 1913892829
       Grass and paths_1: -1210273652
@@ -621,6 +656,9 @@ TextureImporter:
       Grass and paths_7: -121554984
       Grass and paths_8: -485914323
       Grass and paths_9: 2105296837
+=======
+    nameFileIdTable: {}
+>>>>>>> fc9a8dd5ea339f051a2c2313a028c8767e5ca90e
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
