@@ -43,7 +43,7 @@ public class PlayerMovementSFX : MonoBehaviour
         {
             song = 0;
         }
-        audioSource.PlayOneShot(audioClips[song]);
+        audioSource.PlayOneShot(audioClips[song], 1.5f);
         songLength = 0;
     }
 }
