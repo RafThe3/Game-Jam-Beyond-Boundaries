@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 132894071}
   - component: {fileID: 132894070}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Spawn Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -289,8 +289,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4cb7923dc9c0584e94586716dbdb667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxItemsInHand: 5
   pickupSFX: {fileID: 8300000, guid: ebb03b2b009894845b81a64051a5c698, type: 3}
   dropoffSFX: {fileID: 8300000, guid: 99001d6f0f253fd40b0c768f86436b29, type: 3}
   audioSource: {fileID: 3571665192177610861}
   itemsInHandText: {fileID: 0}
+  objectiveText: {fileID: 0}
   remainingItemsText: {fileID: 0}
