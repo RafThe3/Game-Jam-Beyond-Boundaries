@@ -14,6 +14,11 @@ public class PauseMenu : MonoBehaviour
 
     private void Update()
     {
+        EnablePauseMenu();
+    }
+
+    private void EnablePauseMenu()
+    {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (Time.timeScale == 1)
