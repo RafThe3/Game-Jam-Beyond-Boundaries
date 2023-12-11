@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SpawnPoint : MonoBehaviour
 {
-    private Basket basket;
+    [Header("Scene")]
     [Min(0), SerializeField] private int scene;
+
+    //Internal Variables
+    private Basket basket;
 
     // Start is called before the first frame update
     void Awake()
