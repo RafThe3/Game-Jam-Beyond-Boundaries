@@ -9,13 +9,23 @@ public class Player : MonoBehaviour
     [Min(1), SerializeField] private float moveSpeed = 5.0f;
     public bool canMove = true;
 
+    [Header("Sprites")]
+    [Tooltip("Animations must be in this chronological order: facing to, left, right, and away from camera."), SerializeField] private Sprite[] playerSprites;
+
     //Internal Variables
     private Rigidbody2D rb;
     [HideInInspector] public bool isMoving;
+    private SpriteRenderer spriteRenderer;
+    private KeyCode fwd = KeyCode.W, bkwd = KeyCode.S, left = KeyCode.A, right = KeyCode.D;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -30,6 +40,12 @@ public class Player : MonoBehaviour
         {
             return;
         }
+
+        spriteRenderer.sprite = Input.GetKeyDown(fwd) ? playerSprites[0]
+            : Input.GetKeyDown(left) ? playerSprites[1]
+            : Input.GetKeyDown(right) ? playerSprites[2]
+            : Input.GetKeyDown(bkwd) ? playerSprites[3]
+            : null;
 
         float x = Input.GetAxisRaw("Horizontal"), y = Input.GetAxisRaw("Vertical");
 
