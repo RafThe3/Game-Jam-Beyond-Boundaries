@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     [HideInInspector] public bool isMoving;
     private SpriteRenderer spriteRenderer;
-    private KeyCode fwd = KeyCode.W, bkwd = KeyCode.S, left = KeyCode.A, right = KeyCode.D;
+    private readonly KeyCode fwd = KeyCode.W, bkwd = KeyCode.S, left = KeyCode.A, right = KeyCode.D;
 
     private void Awake()
     {
@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        spriteRenderer.sprite = playerSprites[0];
     }
 
     private void FixedUpdate()
@@ -41,11 +42,22 @@ public class Player : MonoBehaviour
             return;
         }
 
-        spriteRenderer.sprite = Input.GetKeyDown(fwd) ? playerSprites[0]
-            : Input.GetKeyDown(left) ? playerSprites[1]
-            : Input.GetKeyDown(right) ? playerSprites[2]
-            : Input.GetKeyDown(bkwd) ? playerSprites[3]
-            : null;
+        if (Input.GetKeyDown(fwd))
+        {
+            spriteRenderer.sprite = playerSprites[3];
+        }
+        else if (Input.GetKeyDown(bkwd))
+        {
+            spriteRenderer.sprite = playerSprites[0];
+        }
+        else if (Input.GetKeyDown(left))
+        {
+            spriteRenderer.sprite = playerSprites[1];
+        }
+        else if (Input.GetKeyDown(right))
+        {
+            spriteRenderer.sprite = playerSprites[2];
+        }
 
         float x = Input.GetAxisRaw("Horizontal"), y = Input.GetAxisRaw("Vertical");
 
