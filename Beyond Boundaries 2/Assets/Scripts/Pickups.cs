@@ -58,11 +58,11 @@ public class Pickups : MonoBehaviour
 
     private void UpdateText()
     {
-        remainingItemsText.text = $"Remaining Items: {pickups.Length}";
-        itemsInHandText.text = numPickups == maxItemsInHand ? "Items In Hand: FULL" : $"Items In Hand: {numPickups}";
-        objectiveText.text = numPickups == maxItemsInHand ? "Objective: Drop off items into basket"
-            : basket.isFull ? "Objective: Go home"
-            : "Objective: Find and collect items";
+        remainingItemsText.text = $"Remaining Strawberries: {pickups.Length}";
+        itemsInHandText.text = numPickups == maxItemsInHand ? "Strawberries In Hand: FULL" : $"Strawberries In Hand: {numPickups}";
+        objectiveText.text = numPickups == maxItemsInHand ? "Objective: Drop Off Strawberries Into Basket"
+            : basket.isFull ? "Objective: Go Home"
+            : "Objective: Find & Collect Strawberries";
     }
 
     private void AddPickup(Collider2D collision)
