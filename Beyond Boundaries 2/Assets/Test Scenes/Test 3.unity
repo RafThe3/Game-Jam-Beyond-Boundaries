@@ -659,37 +659,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3571665192177610856, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
-      propertyPath: m_Color.b
-      value: 0.4433962
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571665192177610856, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
-      propertyPath: m_Color.g
-      value: 0.4433962
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571665192177610856, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
-      propertyPath: m_Color.r
-      value: 0.4433962
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571665192177610859, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
-      propertyPath: playerSprites.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3571665192177610859, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
-      propertyPath: playerSprites.Array.data[0]
+      propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 348559509, guid: 05a7b952ddc7aec48836102d9381e64f, type: 3}
-    - target: {fileID: 3571665192177610859, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
-      propertyPath: playerSprites.Array.data[1]
-      value: 
-      objectReference: {fileID: -2092565020, guid: 05a7b952ddc7aec48836102d9381e64f, type: 3}
-    - target: {fileID: 3571665192177610859, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
-      propertyPath: playerSprites.Array.data[2]
-      value: 
-      objectReference: {fileID: -1665006059, guid: 05a7b952ddc7aec48836102d9381e64f, type: 3}
-    - target: {fileID: 3571665192177610859, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
-      propertyPath: playerSprites.Array.data[3]
-      value: 
-      objectReference: {fileID: -490014184, guid: 05a7b952ddc7aec48836102d9381e64f, type: 3}
     - target: {fileID: 3571665192177610862, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
       propertyPath: m_Name
       value: Player
