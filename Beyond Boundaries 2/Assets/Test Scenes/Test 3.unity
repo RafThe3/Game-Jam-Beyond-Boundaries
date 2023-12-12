@@ -740,6 +740,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawn Point
       objectReference: {fileID: 0}
+    - target: {fileID: 4402838006124329671, guid: 1c8f6f9aee5224a4aa8b83ba4e3f108f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c5b935a4d18187549a506bfc36011797, type: 3}
+    - target: {fileID: 4402838006124329671, guid: 1c8f6f9aee5224a4aa8b83ba4e3f108f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402838006124329671, guid: 1c8f6f9aee5224a4aa8b83ba4e3f108f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402838006124329671, guid: 1c8f6f9aee5224a4aa8b83ba4e3f108f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6509434
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c8f6f9aee5224a4aa8b83ba4e3f108f, type: 3}
 --- !u!1001 &468687553
