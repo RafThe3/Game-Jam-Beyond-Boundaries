@@ -541,7 +541,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.48200002, y: 0.5}
   m_AnchorMax: {x: 0.48200002, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: 224}
+  m_AnchoredPosition: {x: 7.8, y: 222.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &569112428
@@ -564,7 +564,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Level:'
+  m_text: Exp:0/10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bfcb17c7b9017428b1708c040ee59f, type: 2}
   m_sharedMaterial: {fileID: -3647481986427065096, guid: 55bfcb17c7b9017428b1708c040ee59f, type: 2}
@@ -627,7 +627,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -64.955414, y: 0, z: -50.604736, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1327,7 +1327,7 @@ Transform:
   m_GameObject: {fileID: 1228206499}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.95, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.7864, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1750419540}
@@ -1385,6 +1385,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelProgress: 0
   myText: {fileID: 569112428}
+  expBoost: 0
+  x: 0
+  i: 0
 --- !u!1 &1478778787
 GameObject:
   m_ObjectHideFlags: 0
