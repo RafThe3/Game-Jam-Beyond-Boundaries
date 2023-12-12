@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.07971394, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -151,6 +151,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3.5
   canMove: 1
+  playerSprites:
+  - {fileID: 348559509, guid: 05a7b952ddc7aec48836102d9381e64f, type: 3}
+  - {fileID: -2092565020, guid: 05a7b952ddc7aec48836102d9381e64f, type: 3}
+  - {fileID: -1665006059, guid: 05a7b952ddc7aec48836102d9381e64f, type: 3}
+  - {fileID: -490014184, guid: 05a7b952ddc7aec48836102d9381e64f, type: 3}
   isMoving: 0
 --- !u!114 &3571665192177610860
 MonoBehaviour:
