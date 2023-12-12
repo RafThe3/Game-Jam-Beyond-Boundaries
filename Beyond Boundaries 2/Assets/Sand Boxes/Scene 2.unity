@@ -455,7 +455,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -10
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
+  m_ChunkCullingBounds: {x: 0.03333336, y: 0.03333336, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -11483,7 +11483,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
+  m_ChunkCullingBounds: {x: 0.03333336, y: 0.03333336, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -24767,7 +24767,7 @@ Tilemap:
       - {fileID: -1973362166, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
       - {fileID: -718503889, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
       - {fileID: -323639893, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
-      m_AnimationSpeed: 5.1254954
+      m_AnimationSpeed: 5.0613823
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -5, y: 0, z: 0}
@@ -24777,7 +24777,7 @@ Tilemap:
       - {fileID: 1936051799, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
       - {fileID: -1033116686, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
       - {fileID: -722004569, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
-      m_AnimationSpeed: 5.7413006
+      m_AnimationSpeed: 7.4099503
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 7, y: 0, z: 0}
@@ -24787,7 +24787,7 @@ Tilemap:
       - {fileID: 1936051799, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
       - {fileID: -1033116686, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
       - {fileID: -722004569, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
-      m_AnimationSpeed: 7.650222
+      m_AnimationSpeed: 6.36693
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 4, y: 3, z: 0}
@@ -24797,7 +24797,7 @@ Tilemap:
       - {fileID: 1936051799, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
       - {fileID: -1033116686, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
       - {fileID: -722004569, guid: 50f3276ac7a2e784596b8e4fe7eeae50, type: 3}
-      m_AnimationSpeed: 9.656169
+      m_AnimationSpeed: 6.2131186
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
