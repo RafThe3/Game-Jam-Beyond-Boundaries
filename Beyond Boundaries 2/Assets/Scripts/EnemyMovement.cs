@@ -44,11 +44,10 @@ public class EnemyMovement : MonoBehaviour
     private void MoveEnemy()
     {
         Vector3 playerPosition = player.transform.position - transform.position;
-        bool playerIsClose = playerPosition.magnitude < chaseDistance;
-
         playerPosition.Normalize();
+
         Vector2 moveEnemy = 100 * moveSpeed * Time.deltaTime * new Vector2(x: playerPosition.x, y: playerPosition.y);
-        rb.velocity = playerIsClose ? moveEnemy : Vector3.zero;
+        rb.velocity = moveEnemy;
     }
 
     void FlipEnemyFacing()

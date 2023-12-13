@@ -849,7 +849,8 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.509434
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 132894070, guid: 1c8f6f9aee5224a4aa8b83ba4e3f108f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1c8f6f9aee5224a4aa8b83ba4e3f108f, type: 3}
 --- !u!1 &735519088
 GameObject:
@@ -94051,7 +94052,7 @@ Tilemap:
       - {fileID: 1357603908, guid: ea43f27a89d832b49bb263e3ca8b2e6a, type: 3}
       - {fileID: 960483163, guid: ea43f27a89d832b49bb263e3ca8b2e6a, type: 3}
       - {fileID: -663839671, guid: ea43f27a89d832b49bb263e3ca8b2e6a, type: 3}
-      m_AnimationSpeed: 9.907833
+      m_AnimationSpeed: 7.323021
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:

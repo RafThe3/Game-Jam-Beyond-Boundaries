@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Retry
+  m_text: Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bfcb17c7b9017428b1708c040ee59f, type: 2}
   m_sharedMaterial: {fileID: -3647481986427065096, guid: 55bfcb17c7b9017428b1708c040ee59f, type: 2}
@@ -293,7 +293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293, y: 262}
+  m_AnchoredPosition: {x: -351, y: 262}
   m_SizeDelta: {x: 661.2805, y: 99.7189}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &513435089
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thank You For Playing Our Demo!
+  m_text: As The Days Pass By
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bfcb17c7b9017428b1708c040ee59f, type: 2}
   m_sharedMaterial: {fileID: -3647481986427065096, guid: 55bfcb17c7b9017428b1708c040ee59f, type: 2}
@@ -327,13 +327,13 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
+  m_enableVertexGradient: 1
+  m_colorMode: 1
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 1, g: 0, b: 0.09759998, a: 1}
+    topRight: {r: 0, g: 0, b: 0, a: 1}
+    bottomLeft: {r: 1, g: 0, b: 0.09759998, a: 1}
+    bottomRight: {r: 0, g: 0, b: 0, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -350,8 +350,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -603,7 +603,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 467ff29d7afe04a21b11d24c21bc679c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 880326a59846a4e0694215a1ed462c7e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 1421036108}
   - component: {fileID: 1421036107}
   m_Layer: 5
-  m_Name: Retry
+  m_Name: Play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

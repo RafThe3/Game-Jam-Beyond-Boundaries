@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class EndScreen : MonoBehaviour
 {
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
+
     public void Quit()
     {
         Debug.Log("Quitting");
