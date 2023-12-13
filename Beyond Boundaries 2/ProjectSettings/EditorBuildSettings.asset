@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Alternate World.unity
     guid: 041c7253332780f4c87c3cd837eed3da
+  - enabled: 1
+    path: Assets/Scenes/End Screen.unity
+    guid: 4e7f5826457e01748ab6c224ca9a2031
   m_configObjects: {}
