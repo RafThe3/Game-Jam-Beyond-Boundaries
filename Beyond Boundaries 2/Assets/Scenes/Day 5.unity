@@ -316,7 +316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Objective: Find and collect items'
+  m_text: 'Objective: Investigate the mysterious hole'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55bfcb17c7b9017428b1708c040ee59f, type: 2}
   m_sharedMaterial: {fileID: -3647481986427065096, guid: 55bfcb17c7b9017428b1708c040ee59f, type: 2}
@@ -913,7 +913,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &739967787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1354,6 +1354,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3571665192177610854, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3571665192177610854, guid: e6cfad515d2fe434d9d43d20b39493aa, type: 3}
       propertyPath: objectiveText
       value: 
@@ -94609,7 +94613,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1652624563
 RectTransform:
   m_ObjectHideFlags: 0
