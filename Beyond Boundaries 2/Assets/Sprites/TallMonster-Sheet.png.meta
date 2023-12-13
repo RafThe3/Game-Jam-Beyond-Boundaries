@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1ea4f0a1a151e684fb36b9d3e6460fb2
+guid: 9d696020e61cc7d40b232ce823c89db3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Monsters-Thing1Idle-Sheet_0
+      name: TallMonster-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 84
-        height: 79
+        width: 158
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 630b66f80ad885d4d89212b91d666f94
-      internalID: -980427554
+      spriteID: 720ea3c2817575e42ad6074abb6e48aa
+      internalID: -1595663142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsters-Thing1Idle-Sheet_1
+      name: TallMonster-Sheet_1
       rect:
         serializedVersion: 2
-        x: 84
+        x: 158
         y: 0
-        width: 84
-        height: 79
+        width: 158
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9f1978024f7dc946a923f251a18b293
-      internalID: -918073583
+      spriteID: 771bd461c2510d04983b31e2390b047b
+      internalID: 557104473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsters-Thing1Idle-Sheet_2
+      name: TallMonster-Sheet_2
       rect:
         serializedVersion: 2
-        x: 168
+        x: 316
         y: 0
-        width: 84
-        height: 79
+        width: 158
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73f0f77687c462443a037bf82137de24
-      internalID: -919851722
+      spriteID: a00e48463a94d9b4fb3d9214a22448ad
+      internalID: -1039110592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsters-Thing1Idle-Sheet_3
+      name: TallMonster-Sheet_3
       rect:
         serializedVersion: 2
-        x: 252
+        x: 474
         y: 0
-        width: 84
-        height: 79
+        width: 158
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89871d77302b39e4cbb2834cad213b6e
-      internalID: -65533379
+      spriteID: 5a2c7f80a90e3a14b9a2d8ae32fee72f
+      internalID: 121750519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsters-Thing1Idle-Sheet_4
+      name: TallMonster-Sheet_4
       rect:
         serializedVersion: 2
-        x: 336
+        x: 632
         y: 0
-        width: 84
-        height: 79
+        width: 158
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29934f1c53b7036409f6c32de966027e
-      internalID: -1438172935
+      spriteID: 34533270a67d2494ea3b0a5bc6792a95
+      internalID: -1623083081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsters-Thing1Idle-Sheet_5
+      name: TallMonster-Sheet_5
       rect:
         serializedVersion: 2
-        x: 420
+        x: 790
         y: 0
-        width: 84
-        height: 79
+        width: 158
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b07c91b2f4bd3743abdc952c5a576da
-      internalID: 872470225
+      spriteID: 8bf30c21cd9a3e34f9b638098d8a0a04
+      internalID: 1904884855
       vertices: []
       indices: 
       edges: []
@@ -253,12 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Monsters-Thing1Idle-Sheet_0: -980427554
-      Monsters-Thing1Idle-Sheet_1: -918073583
-      Monsters-Thing1Idle-Sheet_2: -919851722
-      Monsters-Thing1Idle-Sheet_3: -65533379
-      Monsters-Thing1Idle-Sheet_4: -1438172935
-      Monsters-Thing1Idle-Sheet_5: 872470225
+      TallMonster-Sheet_0: -1595663142
+      TallMonster-Sheet_1: 557104473
+      TallMonster-Sheet_2: -1039110592
+      TallMonster-Sheet_3: 121750519
+      TallMonster-Sheet_4: -1623083081
+      TallMonster-Sheet_5: 1904884855
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
